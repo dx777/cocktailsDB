@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PKHUD
 
 class MainVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UISearchBarDelegate,UICollectionViewDelegateFlowLayout {
     
@@ -44,7 +45,9 @@ class MainVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
             }
             
             if let id = drink?.id {
+                HUD.show(.progress)
                 DataService.dataService.downloadCocktail(id: id) { [weak self] (drink) in
+                    HUD.hide()
                     detailsVC.currentCocktail = drink
                     self?.navigationController?.pushViewController(detailsVC, animated: true)
                 }

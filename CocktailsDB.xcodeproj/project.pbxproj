@@ -16,7 +16,7 @@
 		96A00C841FAA8400003EC33C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A00C821FAA8400003EC33C /* Main.storyboard */; };
 		96A00C861FAA8400003EC33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A00C851FAA8400003EC33C /* Assets.xcassets */; };
 		96A00C891FAA8400003EC33C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A00C871FAA8400003EC33C /* LaunchScreen.storyboard */; };
-		96A00C941FAA85C0003EC33C /* Coctail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A00C931FAA85C0003EC33C /* Coctail.swift */; };
+		96A00C941FAA85C0003EC33C /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A00C931FAA85C0003EC33C /* Cocktail.swift */; };
 		96A00C961FAA86BF003EC33C /* CoctailCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A00C951FAA86BF003EC33C /* CoctailCollectionCell.swift */; };
 		96A00C981FAA8737003EC33C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A00C971FAA8737003EC33C /* DataService.swift */; };
 		96A00C9A1FAA87A5003EC33C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A00C991FAA87A5003EC33C /* Constants.swift */; };
@@ -37,7 +37,7 @@
 		96A00C851FAA8400003EC33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96A00C881FAA8400003EC33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96A00C8A1FAA8400003EC33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96A00C931FAA85C0003EC33C /* Coctail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coctail.swift; sourceTree = "<group>"; };
+		96A00C931FAA85C0003EC33C /* Cocktail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
 		96A00C951FAA86BF003EC33C /* CoctailCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoctailCollectionCell.swift; sourceTree = "<group>"; };
 		96A00C971FAA8737003EC33C /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		96A00C991FAA87A5003EC33C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		96A00C911FAA8597003EC33C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				96A00C931FAA85C0003EC33C /* Coctail.swift */,
+				96A00C931FAA85C0003EC33C /* Cocktail.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -276,7 +276,7 @@
 				96A00C7F1FAA8400003EC33C /* AppDelegate.swift in Sources */,
 				960C70E21FAAB80800CA9196 /* CocktailDetailsCell.swift in Sources */,
 				960C70E41FAABB6A00CA9196 /* CocktailDetailTableViewFooter.swift in Sources */,
-				96A00C941FAA85C0003EC33C /* Coctail.swift in Sources */,
+				96A00C941FAA85C0003EC33C /* Cocktail.swift in Sources */,
 				96A00C961FAA86BF003EC33C /* CoctailCollectionCell.swift in Sources */,
 				96A00C981FAA8737003EC33C /* DataService.swift in Sources */,
 				96A00C9A1FAA87A5003EC33C /* Constants.swift in Sources */,

@@ -8,7 +8,6 @@
 
 import Foundation
 import Alamofire
-import PKHUD
 
 class DataService {
     
@@ -45,7 +44,6 @@ class DataService {
     func downloadCocktail(id: Int, completion: @escaping (_ drink: Cocktail) -> Void ){
         
         let url = SERVER_URL + API_PATH + LOOKOUP_PATH + String(id)
-        HUD.show(.progress)
         Alamofire.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: nil).responseJSON(completionHandler: { (response) in
             switch response.result
             {
@@ -66,7 +64,6 @@ class DataService {
                 print(error)
                 
             }
-            HUD.hide()
         })
     }
 
